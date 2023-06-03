@@ -33,7 +33,7 @@ public class Presenter {
         this.team = team;
     }
 
-    public Boolean getHasPresented() {
+    public Boolean hasPresented() {
         return hasPresented;
     }
 
@@ -41,7 +41,7 @@ public class Presenter {
         this.hasPresented = hasPresented;
     }
 
-    public Boolean getIsPaired() {
+    public Boolean isPaired() {
         return isPaired;
     }
 
@@ -51,11 +51,10 @@ public class Presenter {
 
     @Override
     public String toString() {
-        return "Presenter{" +
-                "name='" + name + '\'' +
+        return "{ name='" + name + '\'' +
                 ", team='" + team + '\'' +
                 ", hasPresented=" + hasPresented +
-                ", isPaired=" + isPaired +
+                ", isPaired=" + isPaired + " " +
                 '}';
     }
 }

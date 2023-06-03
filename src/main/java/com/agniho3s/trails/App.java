@@ -14,9 +14,11 @@ public class App
     public static void main( String[] args )
     {
         List<Presenter> allPresenters = Generator.getPresentersList(); // Gets you the list of presenters
-        printPresenters(allPresenters);
-        // Your code below (You can uncomment the 'printPresenters' method call above if you want. It's just a helper method to print the presenters list)
-        // Problem statement
+        // printPresenters(allPresenters);
+        // (You can uncomment the 'printPresenters' method call above if you want. It's just a helper method to print the presenters list)
+
+        //   #### PROBLEM STATEMENT ####
+
         // - Each 'Presenter' belongs to a team
         // - Each 'Presenter' has a 'hasPresented' flag
         // - Each 'Presenter' has a 'isPaired' flag
@@ -28,6 +30,8 @@ public class App
         // - Output: Print a list of paired presenters
         // - Output: Print a list of 'Presenter's who could not be paired
 
+        // ################### YOUR CODE BELOW ###################
+        Solution.pairedPresenters(allPresenters);
     }
 
     // Helper method to print the presenters list (*You should not need to modify this method* but feel free to if you want)
