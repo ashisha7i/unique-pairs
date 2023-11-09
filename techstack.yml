@@ -1,0 +1,42 @@
+repo_name: ashisha7i/unique-pairs
+report_id: 40816436a12eca0c94fa53168140052d
+repo_type: Public
+timestamp: '2023-11-09T18:16:51+00:00'
+requested_by: ashisha7i
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ashish Agnihotri
+  last_updated_on: 2023-06-02 04:27:20.000000000 Z
