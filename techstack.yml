@@ -1,7 +1,8 @@
 repo_name: ashisha7i/unique-pairs
 report_id: a0e072dd9c230e51802195c4c5a7b23c
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T00:59:57+00:00'
+timestamp: '2024-01-05T09:04:18+00:00'
 requested_by: ashisha7i
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ashisha7i/unique-pairs
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashisha7i/unique-pairs
   detection_source: Repo Metadata
 - name: JUnit
   description: A programmer-oriented testing framework for Java
@@ -36,7 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2020/874086.png
-  detection_source_url: pom.xml
+  detection_source_url: https://github.com/ashisha7i/unique-pairs/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Ashish Agnihotri
   last_updated_on: 2023-06-02 04:27:20.000000000 Z
